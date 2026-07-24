@@ -28,10 +28,13 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload site/ as Pages artifact
+      - name: Copy site to artifact directory
+        run: mkdir -p /tmp/artifact && cp -r site/* /tmp/artifact/
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: /tmp/artifact
 
       - name: Deploy to GitHub Pages
         id: deployment
