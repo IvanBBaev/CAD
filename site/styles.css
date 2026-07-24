@@ -88,6 +88,10 @@ a { color: var(--blue); }
 /* ===== Start screen ===== */
 .hero h1 { font-size: 28px; margin: 0 0 6px; }
 .hero p.sub { color: var(--text-dim); margin: 0 0 22px; }
+.about { background: var(--bg-elev2); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; margin-bottom: 22px; font-size: 14px; color: var(--text-dim); line-height: 1.6; }
+.about p { margin: 0 0 10px; }
+.about p:last-child { margin-bottom: 0; }
+.about strong { color: var(--text); font-weight: 600; }
 .stat-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 22px; }
 .stat {
   flex: 1; min-width: 120px; background: var(--bg-elev2);
