@@ -12,6 +12,22 @@ Interactive ServiceNow CAD (Certified Application Developer) practice exam with 
 - **Keyboard shortcuts**: A–J select option, Arrow keys navigate, F to flag, etc.
 - **Dark/Light theme** toggle
 
+## ℹ️ About
+
+This is a practice exam for the **ServiceNow Certified Application Developer (CAD)** certification. Questions cover core application development topics:
+
+- Forms & Fields — Form Designer, field types, layouts
+- Business Rules — Conditions, actions, execution order
+- Client Scripts — onChange, onLoad, onSubmit, g_form API
+- Server Scripts — GlideRecord, GlideAjax, gs APIs
+- Update Sets & Source Control — Change capture, import/export
+- Integrations — REST APIs, SOAP, webhooks
+- Application Scope — Namespace, security, cross-app communication
+- Flow Designer — Visual workflows, triggers, subflows
+- Service Portal — Widgets, configuration, theming
+
+**Study tips:** Practice mode gives instant feedback for learning. Exam mode simulates the real test with timed scoring. Multi-answer questions require *all* correct answers marked. Use keyboard shortcuts (A–J, →/←, F) for faster navigation.
+
 ## 🚀 Getting Started
 
 ### Build from source
